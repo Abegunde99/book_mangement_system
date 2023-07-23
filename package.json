@@ -1,0 +1,11 @@
+{
+  "name": "book_managment_system",
+  "version": "1.0.0",
+  "description": "A book management system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abegunde Precious Olanrewaju",
+  "license": "ISC"
+}

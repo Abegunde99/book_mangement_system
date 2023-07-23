@@ -1,10 +1,11 @@
 {
-  "name": "book_managment_system",
+  "name": "book_management_system",
   "version": "1.0.0",
   "description": "A book management system",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Abegunde Precious Olanrewaju",
   "license": "ISC",

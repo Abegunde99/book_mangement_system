@@ -58,7 +58,7 @@ The API provides the following endpoints:
 - `GET /api/v1/books/:isbn`: View a single book by its ISBN number.
 - `PUT /api/v1/books/:id`: Update book details.
 - `DELETE /api/v1/books/:id`: Delete a book.
-- `GET /api/v1/books/search`: Search for a book by title or author.
+- `GET /api/v1/books/search?title=${the title} || author=${the author}`: Search for a book by title or author.
 
 ## Book Object
 

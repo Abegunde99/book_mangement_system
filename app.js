@@ -8,6 +8,10 @@ app.use(express.urlencoded({ extended: false }));
 
 
 //routes
+app.get('/', (req, res) => { 
+    res.status(200).json({ success: true, message: 'Welcome to the Book API' });
+});
+
 app.use('/api/v1/books', bookRouter)
 
 

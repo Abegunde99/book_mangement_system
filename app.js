@@ -1,11 +1,14 @@
 const express = require('express');
 const app = express();
 const bookRouter = require('./routes/book');
+const cors = require('cors');
 
 //body parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+//cors
+app.use(cors());
 
 //routes
 app.get('/', (req, res) => { 

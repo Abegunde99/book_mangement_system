@@ -75,7 +75,7 @@ const getBook = asyncHandler(async (req, res, next) => {
 
 
 // @desc    update a book
-// @route   PUT /api/v1/books/:id
+// @route   PUT /api/v1/books/:isbn
 // @access  Public
 const updateBook = asyncHandler(async (req, res, next) => {
     const { id } = req.params;

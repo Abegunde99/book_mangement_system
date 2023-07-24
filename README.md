@@ -4,13 +4,13 @@ The Book Management System is a simple Node.js application that allows users to 
 
 ## Documentation
 ```bash
-https://documenter.getpostman.com/view/10674459/Tz5qZ9Jm
+https://documenter.getpostman.com/view/21616732/2s946maAKR
 ```
 
 ##  Hosted Application
 
 ```bash
-https://book-management-system.herokuapp.com/
+https://book-management-system-gzjd.onrender.com
 ```
 
 ## Requirements

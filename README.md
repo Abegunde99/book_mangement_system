@@ -22,7 +22,7 @@ https://book-management-system-gzjd.onrender.com
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/abegunde99/book_management_system.git
+    git clone https://github.com/abegunde99/book_mangement_system.git
     ```
 
 2. Install dependencies:
